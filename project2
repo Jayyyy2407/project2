@@ -1,0 +1,7 @@
+text = input().strip()
+if text == "":
+    print("You didn't enter any text!")
+else:
+    words = text.split()
+    count = len(words)
+    print("There are", count, "words in your text.")
